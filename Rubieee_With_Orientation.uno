@@ -1,10 +1,7 @@
-#include "Functions.h"
 #include <BiColorLED.h>
 #include <Servo.h> 
 #define leapTime 85
 #define LED 13
-/*servo left QTI== 7 edaalo fe a7a raa7 w fata7a RW speedB 5od w 2edeh o5d */
-	
 BiColorLED led = BiColorLED(A1, A2); // (pin 1, pin 2)
 
 int frontUltraSonicSensor = 5, backUltraSonicSensor = 6, leftUltraSonicSensor = 7, rightUltraSonicSensor = 8; //Intializing Sensors with standard numbers 
